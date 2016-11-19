@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>
+    BOOTSTRAP
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<!--<link rel="stylesheet" href="css/bootstrap.css">-->
+<style>
+    div {
+        border: 1px solid orange;
+    }
+    
+    table {
+        width: 100%;
+        margin-top: 20px;
+        clear: both;
+        float: left;
+        border-collapse: collapse;
+    }
+    
+    table>thead {
+        box-shadow: 1px 2px 5px 0px green inset;
+    }
+    
+    table>thead>tr>th,
+    table>tbody>tr>td {
+        border: 1px solid green;
+        padding: 10px;
+    }
+    
+    table>tbody>tr:nth-child(odd) {
+        background-color: orange;
+        color: aquamarine;
+    }
+    
+    table>tbody>tr:hover {
+        background-color: burlywood;
+        color: aquamarine;
+    }
+</style>
+
+<body>
+    <div class="col-sx-6 col-md-4">
+
+        <button type="button" class="btn-success"> Small Screen</button>
+    </div>
+    <div class="col-sx-6 col-md-4">
+        Small Screen
+    </div>
+    <div class="col-sx-6 col-md-4">
+        Small Screen
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Default</td>
+                <td>Defaultson</td>
+                <td>def@somemail.com</td>
+            </tr>
+            <tr class="success">
+                <td>Success</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr class="danger">
+                <td>Danger</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+            </tr>
+            <tr class="info">
+                <td>Info</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+            </tr>
+            <tr class="warning">
+                <td>Warning</td>
+                <td>Refs</td>
+                <td>bo@example.com</td>
+            </tr>
+            <tr class="active">
+                <td>Active</td>
+                <td>Activeson</td>
+                <td>act@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
